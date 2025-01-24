@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <!-- google font apis-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Hobby</title>
+</head>
+<body>
+<!-- header-->
+<header>
+  <div class="menu">
+    <!-- navigation menu bar-->
+    <ul>
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="hobby.html">Hobby</a></li>
+      <li><a href="https://www.wpi.edu/">WPI</a></li>
+      <li><a href="https://thepostmansknock.com/painting-with-watercolors-for-beginners/?srsltid=AfmBOoqD5WHblvNlZpYT2UqD2Zn24HHMSr0FRpb8lJ7g1bsMsGTDayLz">My Hobby</a></li>
+
+    </ul>
+  </div>
+</header>
+<section class = "intro">
+  <h1>Hobby</h1>
+  <p>In this section, please answer the following questions related to your hobbies.</p>
+</section>
+
+<form>
+  <!-- input text box -->
+  <h2> Question 1 </h2>
+  <label for="hobby">What are your hobbies you do in your free time? </label><br>
+  <input type="text" id = "hobby" name="hobby"><br>
+
+  <!-- text area-->
+  <h2> Question 2 </h2>
+  <label for = "ease">What hobbies help ease your mind when you're stressed? </label><br>
+  <textarea id = "ease" name = "ease" rows = "5" cols = "50"></textarea><br>
+
+  <!-- check boxes-->
+  <h2> Question 3 </h2>
+  <p>Which of these hobbies do you enjoy the most?</p>
+  <input type = "checkbox" id = "hob1" name = "hobbies" value = "workout" >
+  <label for = "hob1"> Working out</label><br>
+  <input type = "checkbox" id = "hob2" name = "hobbies" value = "learning_lang">
+  <label for = "hob2"> Learning a language </label><br>
+  <input type = "checkbox" id = "hob3" name = "hobbies" value = "reading">
+  <label for = "hob3"> Reading Books</label><br>
+  <input type = "checkbox" id = "hob4" name = "hobbies" value = "hanging_out">
+  <label for = "hob4"> Hanging out with friends</label><br>
+
+  <!-- radio buttons-->
+  <h2> Question 4 </h2>
+  <p>If you could only have one hobby for the rest of your life, which one would you choose? </p>
+  <input type="radio" id="coding" name="fav" value = "Code">
+  <label for = "coding"> Coding</label><br>
+  <input type="radio" id="cooking" name="fav" value = "Cooking">
+  <label for = "cooking"> Cooking</label><br>
+  <input type="radio" id="painting" name="fav" value = "Reading">
+  <label for = "painting"> Painting</label><br>
+  <input type="radio" id="dance" name="fav" value = "Writing">
+  <label for = "dance"> Dancing</label><br>
+
+  <!-- drop down selection-->
+  <h2> Question 5 </h2>
+  <p> Choose how many hours you spend on your hobbies per week</p>
+  <label for = "hours">Hours: </label>
+  <select name="hours" id = "hours">
+    <option value="1">0 hrs</option>
+    <option value="2">1-2 hrs</option>
+    <option value="3">3-4 hrs</option>
+    <option value="4">5-6 hrs</option>
+    <option value="5">7+ hrs</option>
+  </select>
+  <br><br>
+
+  <!-- submit button-->
+  <input type = "submit" value = "Submit">
+</form>
+
+<!-- footer -->
+<footer>
+  <p> Author: Jahnavi Prudhivi<br> Please contact me for further details:
+    <a href="mailto:jahnaviprudhivi04@gmail.com">jahnavipru@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
